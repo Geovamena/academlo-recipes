@@ -21,3 +21,5 @@ const Categories = db.define('categories', {
 
 
 module.exports = Categories
+
+history
