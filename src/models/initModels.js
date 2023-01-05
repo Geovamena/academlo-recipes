@@ -33,6 +33,7 @@ const initModels = () => {
     UsersIngredients.belongsTo(Ingredients)
 
     //TODO
+    
     //* Recipes M:1 Categories
     Categories.hasMany(Recipes)
     Recipes.belongsTo(Categories)
